@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Iman</title>
+</head>
+<body>
+    <header class="headerbar">
+        <h1 id="heading">Welcome!</h1>
+        <nav class="desktop">
+            <button class="button-dark" onclick="changeDiv('about')">About</button>
+            <button class="button-dark" onclick="changeDiv('projects')">Projects</button>
+            <button class="button-dark" onclick="changeDiv('misc')">Misc</button>
+        </nav>
+        <nav class="mobile">
+            <button class="icon button-dark" onclick="changeDiv('navigation')" class="icon"><i id="navicon" class="fa-solid fa-bars"></i></button>
+        </nav>
+        <a target="_blank" href="https://www.linkedin.com/in/iman-ahsan/"><button class="icon button-dark"><i class="fa-brands fa-linkedin-in"></i></button></a>
+        <button class="icon button-dark" onclick="swapMode()" class="icon"><i id="modeicon" class="fa-solid fa-sun"></i></button>
+    </header>
+    <div class="about">
+        <div>
+            <p>I'm Iman Ahsan, a third year Computer Science undergrad student at the University of Waterloo</p>
+        </div>
+    </div>
+</body>
+</html>
